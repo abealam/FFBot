@@ -1,0 +1,2 @@
+# FFBot
+Fantasy Football Bot
