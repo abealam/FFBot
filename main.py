@@ -66,7 +66,7 @@ client.run(TOKEN)
 # import passing
 #
 # bot = lightbulb.BotApp(
-#     token='ODQ3MTc3NDg2NTU0MzY1OTY0.YK6RhA.UEsm91GBvpaJgrGmlOqqJUo7fUo',
+#     token=TOKEN
 #     default_enabled_guilds=(745374634312204388)
 # )
 #
