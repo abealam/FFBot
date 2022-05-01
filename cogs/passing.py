@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
+# cog for passing stats
 class Passing(commands.Cog):
     def __init__(self, client):
         self.client = client

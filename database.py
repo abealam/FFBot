@@ -1,3 +1,5 @@
+#unfinished mySQL setup
+
 import mysql.connector
 
 mydb = mysql.connector.connect(

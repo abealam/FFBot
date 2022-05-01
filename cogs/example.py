@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 
 
+# example cog for reference
 class Example(commands.Cog):
     def __init__(self, client):
         self.client = client
