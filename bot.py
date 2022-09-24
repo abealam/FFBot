@@ -1,7 +1,7 @@
 import discord, os, sys
 from discord.ext import commands
 import random
-from bot_token import token
+from bot_token import token, myid
 from receiving import receiving_dict, beautifulWR
 from passing import passing_dict, beautifulQB
 from rushing import rushing_dict, beautifulRB
@@ -83,7 +83,7 @@ async def WR(ctx, name, stat=None):
 @bot.command(name='restart')
 async def restart(ctx):
     id = str(ctx.author.id)
-    if id == '689177141992226990':
+    if id == myid():
         await ctx.send("Refreshing stats...")
         restart_bot()
     else:
