@@ -54,5 +54,5 @@ def receiving_dict():
 def beautifulWR(player):
     if player:
         string = "receptions: " + player['receptions'] + ", targets: " + player['targets'] + \
-                 ", yards" + player['yards'] + ", TDs: " + player['TDs']
+                 ", yards: " + player['yards'] + ", TDs: " + player['TDs']
         return string
